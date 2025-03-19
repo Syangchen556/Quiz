@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Let's see how smart you are!</h1>
+    <div id="quiz">
+      <div id="question-container">
+        <p id="question"></p>
+      </div>
+      <div id="options-container">
+        <!-- Multiple choice options will be displayed here -->
+      </div>
+      <div id="feedback"></div>
+      <button id="next-btn" class="btn">Next</button>
+      <button id="reset-btn" class="btn">Reset Quiz</button>
+    </div>
+    <div id="score-container">
+      <h2>Your Score: <span id="score">0</span></h2>
+    </div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
